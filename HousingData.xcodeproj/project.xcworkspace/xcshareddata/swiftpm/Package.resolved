@@ -1,0 +1,14 @@
+{
+  "pins" : [
+    {
+      "identity" : "easycsv",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/scottandrew/EasyCSV.git",
+      "state" : {
+        "branch" : "main",
+        "revision" : "3c9d661bf430df6974e0120ebc18c947abd3d90f"
+      }
+    }
+  ],
+  "version" : 2
+}
