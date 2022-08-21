@@ -11,7 +11,7 @@ import SwiftUI
 struct HousingDataApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            HousingDataView()
         }
     }
 }

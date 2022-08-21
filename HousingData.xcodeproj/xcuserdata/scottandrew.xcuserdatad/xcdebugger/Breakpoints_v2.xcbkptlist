@@ -3,4 +3,69 @@
    uuid = "D0016499-F6ED-4D70-AECE-82EE23F49ADB"
    type = "1"
    version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "162854B6-97C7-49B1-B040-84CBE44CFF1D"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "HousingData/ContentView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "22"
+            endingLineNumber = "22"
+            landmarkName = "body"
+            landmarkType = "24">
+            <Locations>
+               <Location
+                  uuid = "162854B6-97C7-49B1-B040-84CBE44CFF1D - 94cacf2751585a19"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(1) suspend resume partial function for closure #2 @Sendable () async -&gt; () in HousingData.ContentView.body.getter : some"
+                  moduleName = "HousingData"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/scottandrew/Sources/HousingData/HousingData/ContentView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "22"
+                  endingLineNumber = "22"
+                  offsetFromSymbolStart = "72">
+               </Location>
+               <Location
+                  uuid = "162854B6-97C7-49B1-B040-84CBE44CFF1D - 924eb4bef340dc38"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(2) await resume partial function for closure #2 @Sendable () async -&gt; () in HousingData.ContentView.body.getter : some"
+                  moduleName = "HousingData"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/scottandrew/Sources/HousingData/HousingData/ContentView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "22"
+                  endingLineNumber = "22"
+                  offsetFromSymbolStart = "40">
+               </Location>
+               <Location
+                  uuid = "162854B6-97C7-49B1-B040-84CBE44CFF1D - 7256d88e4426a404"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(4) suspend resume partial function for closure #2 @Sendable () async -&gt; () in HousingData.ContentView.body.getter : some"
+                  moduleName = "HousingData"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/scottandrew/Sources/HousingData/HousingData/ContentView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "22"
+                  endingLineNumber = "22"
+                  offsetFromSymbolStart = "36">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
 </Bucket>

@@ -7,7 +7,7 @@
 
 import Foundation
 
-struct RegionData {
+struct RegionData: Identifiable {
     enum RegionType: String {
         case metro = "Msa"
         case country = "Country"

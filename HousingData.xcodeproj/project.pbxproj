@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		401C31A828B048D70068129C /* PreviewData.csv in Resources */ = {isa = PBXBuildFile; fileRef = 401C31A728B048D70068129C /* PreviewData.csv */; };
 		404C5B7D28A4AA4C0005297B /* TestData.csv in Resources */ = {isa = PBXBuildFile; fileRef = 404C5B7C28A4AA4C0005297B /* TestData.csv */; };
 		409580FD289CDBE5001D33EF /* EasyCSV in Frameworks */ = {isa = PBXBuildFile; productRef = 409580FC289CDBE5001D33EF /* EasyCSV */; };
 		40958100289CDC29001D33EF /* PriceData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 409580FF289CDC29001D33EF /* PriceData.swift */; };
@@ -14,10 +15,11 @@
 		4097A10B289DD9FD00CBF7BF /* String+Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4097A10A289DD9FD00CBF7BF /* String+Utils.swift */; };
 		4097A10D289EB0FE00CBF7BF /* RegionDataParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4097A10C289EB0FE00CBF7BF /* RegionDataParser.swift */; };
 		409EE186289A219D002EF054 /* HousingDataApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 409EE185289A219D002EF054 /* HousingDataApp.swift */; };
-		409EE188289A219D002EF054 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 409EE187289A219D002EF054 /* ContentView.swift */; };
+		409EE188289A219D002EF054 /* HousingDataView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 409EE187289A219D002EF054 /* HousingDataView.swift */; };
 		409EE18A289A219E002EF054 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 409EE189289A219E002EF054 /* Assets.xcassets */; };
 		409EE18D289A219E002EF054 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 409EE18C289A219E002EF054 /* Preview Assets.xcassets */; };
 		409EE198289A219E002EF054 /* RegionDataParserTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 409EE197289A219E002EF054 /* RegionDataParserTests.swift */; };
+		40BA510F28AE8F18000C4201 /* HousingDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40BA510E28AE8F18000C4201 /* HousingDataModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +40,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		401C31A728B048D70068129C /* PreviewData.csv */ = {isa = PBXFileReference; lastKnownFileType = text; path = PreviewData.csv; sourceTree = "<group>"; };
 		404C5B7C28A4AA4C0005297B /* TestData.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = TestData.csv; sourceTree = "<group>"; };
 		409580FF289CDC29001D33EF /* PriceData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PriceData.swift; sourceTree = "<group>"; };
 		4097A107289D562D00CBF7BF /* RegionData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegionData.swift; sourceTree = "<group>"; };
@@ -45,13 +48,14 @@
 		4097A10C289EB0FE00CBF7BF /* RegionDataParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegionDataParser.swift; sourceTree = "<group>"; };
 		409EE182289A219D002EF054 /* HousingData.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HousingData.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		409EE185289A219D002EF054 /* HousingDataApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HousingDataApp.swift; sourceTree = "<group>"; };
-		409EE187289A219D002EF054 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		409EE187289A219D002EF054 /* HousingDataView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HousingDataView.swift; sourceTree = "<group>"; };
 		409EE189289A219E002EF054 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		409EE18C289A219E002EF054 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		409EE18E289A219E002EF054 /* HousingData.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = HousingData.entitlements; sourceTree = "<group>"; };
 		409EE193289A219E002EF054 /* HousingDataTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HousingDataTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		409EE197289A219E002EF054 /* RegionDataParserTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegionDataParserTests.swift; sourceTree = "<group>"; };
 		409EE19D289A219E002EF054 /* HousingDataUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HousingDataUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		40BA510E28AE8F18000C4201 /* HousingDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HousingDataModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -122,9 +126,9 @@
 			children = (
 				4097A109289DD9D700CBF7BF /* Extensions */,
 				409580FE289CDC09001D33EF /* Data */,
-				409EE1B0289A21C0002EF054 /* CSVParser */,
 				409EE185289A219D002EF054 /* HousingDataApp.swift */,
-				409EE187289A219D002EF054 /* ContentView.swift */,
+				409EE187289A219D002EF054 /* HousingDataView.swift */,
+				40BA510E28AE8F18000C4201 /* HousingDataModel.swift */,
 				409EE189289A219E002EF054 /* Assets.xcassets */,
 				409EE18E289A219E002EF054 /* HousingData.entitlements */,
 				409EE18B289A219E002EF054 /* Preview Content */,
@@ -136,6 +140,7 @@
 			isa = PBXGroup;
 			children = (
 				409EE18C289A219E002EF054 /* Preview Assets.xcassets */,
+				401C31A728B048D70068129C /* PreviewData.csv */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
@@ -147,13 +152,6 @@
 				409EE197289A219E002EF054 /* RegionDataParserTests.swift */,
 			);
 			path = HousingDataTests;
-			sourceTree = "<group>";
-		};
-		409EE1B0289A21C0002EF054 /* CSVParser */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = CSVParser;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -267,6 +265,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				409EE18D289A219E002EF054 /* Preview Assets.xcassets in Resources */,
+				401C31A828B048D70068129C /* PreviewData.csv in Resources */,
 				409EE18A289A219E002EF054 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -294,8 +293,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				4097A10D289EB0FE00CBF7BF /* RegionDataParser.swift in Sources */,
+				40BA510F28AE8F18000C4201 /* HousingDataModel.swift in Sources */,
 				4097A10B289DD9FD00CBF7BF /* String+Utils.swift in Sources */,
-				409EE188289A219D002EF054 /* ContentView.swift in Sources */,
+				409EE188289A219D002EF054 /* HousingDataView.swift in Sources */,
 				40958100289CDC29001D33EF /* PriceData.swift in Sources */,
 				409EE186289A219D002EF054 /* HousingDataApp.swift in Sources */,
 				4097A108289D562D00CBF7BF /* RegionData.swift in Sources */,
