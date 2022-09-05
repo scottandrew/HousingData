@@ -20,6 +20,7 @@
 		409EE18D289A219E002EF054 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 409EE18C289A219E002EF054 /* Preview Assets.xcassets */; };
 		409EE198289A219E002EF054 /* RegionDataParserTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 409EE197289A219E002EF054 /* RegionDataParserTests.swift */; };
 		40BA510F28AE8F18000C4201 /* HousingDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40BA510E28AE8F18000C4201 /* HousingDataModel.swift */; };
+		40EAB02228B5C18C0062EEBD /* OrderedCollections in Frameworks */ = {isa = PBXBuildFile; productRef = 40EAB02128B5C18C0062EEBD /* OrderedCollections */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,6 +64,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				40EAB02228B5C18C0062EEBD /* OrderedCollections in Frameworks */,
 				409580FD289CDBE5001D33EF /* EasyCSV in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -172,6 +174,7 @@
 			name = HousingData;
 			packageProductDependencies = (
 				409580FC289CDBE5001D33EF /* EasyCSV */,
+				40EAB02128B5C18C0062EEBD /* OrderedCollections */,
 			);
 			productName = HousingData;
 			productReference = 409EE182289A219D002EF054 /* HousingData.app */;
@@ -247,6 +250,7 @@
 			mainGroup = 409EE179289A219D002EF054;
 			packageReferences = (
 				409580FB289CDBE5001D33EF /* XCRemoteSwiftPackageReference "EasyCSV" */,
+				40EAB02028B5C18C0062EEBD /* XCRemoteSwiftPackageReference "swift-collections" */,
 			);
 			productRefGroup = 409EE183289A219D002EF054 /* Products */;
 			projectDirPath = "";
@@ -622,6 +626,14 @@
 				kind = branch;
 			};
 		};
+		40EAB02028B5C18C0062EEBD /* XCRemoteSwiftPackageReference "swift-collections" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/apple/swift-collections.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
@@ -629,6 +641,11 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 409580FB289CDBE5001D33EF /* XCRemoteSwiftPackageReference "EasyCSV" */;
 			productName = EasyCSV;
+		};
+		40EAB02128B5C18C0062EEBD /* OrderedCollections */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 40EAB02028B5C18C0062EEBD /* XCRemoteSwiftPackageReference "swift-collections" */;
+			productName = OrderedCollections;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};

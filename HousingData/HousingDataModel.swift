@@ -11,6 +11,13 @@ import SwiftUI
 @MainActor
 class HousingDataModel : ObservableObject {
     @Published private (set) var data = [RegionData]()
+    var lastSelection = Set<RegionData.ID>()
+
+    func selectedData(items: Set<RegionData.ID>) -> [RegionData] {
+        return items.map { itemId in
+            return data.first { $0.id == itemId }!
+        }
+    }
     
     func sync() async throws {
         var url: URL
